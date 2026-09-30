@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://sih-backend-a7ak.onrender.com/api';
 
 const client = axios.create({
   baseURL: API_BASE,
